@@ -1,23 +1,7 @@
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
 [user]
-	name = mhartington
-	email = mikehartington@gmail.com
-	signingkey = E890DB47
-[credential]
-	helper = osxkeychain
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
-[filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
-	required = true
-[github]
-  user = mhartington
-
+	name = Jesus Garcia
+	email = daschewie@gmail.com
+	
 [core]
   pager = zsh -lc 'diff-highlight | strip_diff_leading_symbols | less -r' -
 
@@ -26,5 +10,3 @@
   oldHighlight = "red bold 52"
   newNormal = "green bold"
   newHighlight = "green bold 22"
-[commit]
-	gpgsign = true
